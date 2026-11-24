@@ -1,0 +1,15 @@
+[project]
+name = "agent-from-scratch"
+version = "0.1.0"
+description = "28 天掌握 AI Agent 开发：先手写，再上框架"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.70.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.9.0",
+    "pytest>=8.0.0",
+]
